@@ -1,0 +1,33 @@
+{
+  "name": "currency-rates",
+  "version": "0.0.1",
+  "description": "Currency rates module for sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auxionize/currencyRates.git"
+  },
+  "keywords": [
+    "currency",
+    "rates"
+  ],
+  "author": "Iordan Georgiev <iordan340@gmail.com> (http://auxionize.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Auxionize/currencyRates/issues"
+  },
+  "homepage": "https://github.com/Auxionize/currencyRates#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "lodash": "^4.13.1",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "sequelize": "^3.23.3",
+	"config": "^1.20.1",
+	"pg": "^4.5.2"
+  }
+}
